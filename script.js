@@ -1,4 +1,4 @@
-<script>
+
       let outputscreen = document.getElementById('output-screen');
       function display(num) {
         outputscreen.value += num;
@@ -16,4 +16,4 @@
       function del() {
         outputscreen.value = outputscreen.value.slice(0, -1);
       }
-    </script>
+   
